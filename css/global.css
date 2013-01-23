@@ -13,7 +13,6 @@ header {
 }
 
 footer {
-	border:1px solid red;
 	float:left;
 	width:900px;
 	background-color:#FFF;
@@ -30,6 +29,11 @@ nav
 section
 {
 	width:900px;
+}
+
+#main-body-wrapper
+{
+	overflow:hidden;
 	background-color:#FFF;
 }
 
@@ -43,21 +47,18 @@ section
 
 #sidebar-left
 {
-	border:1px solid red;
 	width:200px;
 	float:left;
 }
 
 #sidebar-right
 {
-	border:1px solid red;
 	width:266px;
 	float:left;
 }
 
 #main-article
 {
-	border:1px solid red;
 	width:400px;
 	padding:10px;
 	float:left;
@@ -167,7 +168,6 @@ header ul li a
 
 #social-nav ul
 {
-	border:1px solid red;
 	padding:0;
 	float:left
 }
@@ -186,7 +186,6 @@ header ul li a
 
 #bottom-tabs ul
 {
-	border:1px solid red;
 	padding:0;
 	float:right
 }
