@@ -1,158 +1,103 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="UTF-8" />
 <title>Harding University</title>
 
-<link rel="stylesheet" type="text/css" href="/styles/global.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/global.css">
 
-<style>
-#main-wrapper {
-	width:900px;
-	margin:0 auto;
-}
-#header {
-	overflow:hidden;
-	border:#9F0 1px solid;
-}
-#main-content
-{
-	top:-18px;
-	left:62px;
-	background-color:#FFF;
-	width:900px;
-	height:600px;
-}
-.right {
-	vertical-align: baseline;
-	display: inline-block;
-}
-.left {
-	vertical-align: baseline;
-	display: inline-block;
-	padding-left:24px;
-}
-.main-image
-{
-	top:40px;
-	left:-16px;
-}
-.apply-now
-{
-	top:74px;
-	left:694px;
-}
-.visit
-{
-	top:197px;
-	left:694px;
-}
-.guide
-{
-	top:468px;
-	left:0px;
-}
-.logo
-{
-	position:absolute;
-	top:467px;
-	left:748px;
-}
-.quotebox
-{
-	position:absolute;
-	top:909px;
-	left:71px;
-}
-.whitespace {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-.rightbox1
-{
-	position:absolute;
-	top:602px;
-	left:696px;
-}
-body
-{
-	background:#d0cf9f url(Images/hardingLayer_0013_background.png) left top repeat-x; 	
-}
-#header h1 a
-{
-	margin-left:10px;
-	float:left;
-	background:transparent url(./Images/hardingLayer_0010_red-Heart.png) left top no-repeat;
-	width:355px;
-	height:0px;
-	display:block;
-	overflow:hidden;
-	padding-top:57px;
-}
-#header ul
-{
-	border:#9F0 1px solid;
-	margin-right:20px;
-	margin-top:40px;
-	float:right
-}
-#header ul li
-{
-	float:left;
-	margin-right:50px;
-	background:transparent url(./Images/unselectedTabBackground.png) top left repeat-x;
-	width:99px;
-	height:36px;
-	list-style-type: none;
-	padding:0;
-	margin:0;
-	font-family:"Courier New";
-}
-#body-wrapper
-{
-	border:#9F0 1px solid;
-	background-color:#FFF;
-}
+<!-- Remember to use this conditional to target IE6 and other obsolete browsers -->
 
-</style>
+<!--[if lte IE 6]>
+  <link href="ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
 
 </head>
 
 <body>
 
+<div id="wrapper">
 
-<div id="main-wrapper">
-	<div id="header">
-    	<h1><a href="#">I love Harding</a></h1>
-		<ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Articles</a></li>
-        <li><a href="#">Ask Us</a></li>
-        <li><a href="#">Vist</a></li>
-        <li><a href="#">Apply</a></li>
-        </ul>
-    </div><!-- Header div -->
-
-	<div id="body-wrapper">
-		<div id="top-images">
-			<div id="main-image-carrousel">
-			</div><!-- Main Image -->
-			<div id="apply-box">
-			</div><!-- Apply Now Box -->
-			<div id="visit-box">
-			</div><!-- Visit Box -->
-		</div>
-		<div id="content-wrapper">
-		
-		</div><!-- Main Content Wrapper -->
-		<div id="footer-wrapper">
-		
-		</div><!-- Footer -->
-	</div><!-- Body wrapper -->
+	<header>
+		<h1><a href="#">I love Harding</a></h1>
+		<nav>
+			<ul>
+	        <li><a href="#">Home</a></li>
+	        <li><a href="#">Articles</a></li>
+	        <li><a href="#">Ask Us</a></li>
+	        <li><a href="#">Visit</a></li>
+	        <li><a href="#">Apply</a></li>
+	        </ul>
+	    <nav><!-- Navigation -->
+	</header>
+	
+	<section>
+		<figure id="main-image">
+			<img src="./Images/hardingLayer_0000_main-image.png">
+		</figure>
+		<aside id="apply-box">
+			Apply Today!
+		</aside>
+		<aside id="visit-box">
+			Visit Harding. You won't know until you've been here.
+		</aside>
+	</section>
+	
+	<section>
+		<aside id="sidebar-left">
+			<figure id="sidebar-picture">
+				Harding University
+			</figure>
+			<figure  id="sidebar-quote">
+				You will leave prepared to succeed.
+			</figure>
+		</aside>
+		<article id="main-article">
+			<h1>The Road Ahead</h1>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel odio mi, in sodales ipsum. Phasellus aliquam orci urna, sitamet consectetur nunc. Nulla venenatis pharetra lorem sit amet faucibus. Mauris bibendum pulvinar gravida. Nulla magna quam, tempus id auctor sit amet, pretium id massa. Morbi nec pharetra neque. Duis in tortor nec nisi venenatis egestas. Quisque ac dolor risus, vel elementum nulla. Sed id fringilla tellus. Sed ac libero nulla, eget fermentum diam. In hac habitasse platea dictumst. Fusce tincidunt ligula a metus posuere elementum.</p>
+			
+		</article>
+		<aside id="sidebar-right">
+			<article>
+				What's your Bison IQ?
+			</article>
+			<article>
+				Harding Highlights
+			</article>	
+		</aside>
+	</section>
+	<footer>
+		<nav id="social-nav">
+			<ul>
+				<li>RSS</li>
+				<li>FB</li>
+				<li>t</li>
+				<li>fr</li>
+				<li>?</li>
+				<li>V</li>
+				<li>YT</li>
+			</ul>
+		</nav>
+		<nav id="bottom-tabs">
+			<ul>
+	        	<li><a href="#">Home</a></li>
+		        <li><a href="#">Articles</a></li>
+		        <li><a href="#">Ask Us</a></li>
+		        <li><a href="#">Visit</a></li>
+		        <li><a href="#">Apply</a></li>
+	        </ul>
+			
+		</nav>
+	</footer>
+			
 
 </div><!-- Main Wrapper -->
+
+<!-- Remember to set Javascript files here, at the bottom, for faster load times -->
 
 </body>
 

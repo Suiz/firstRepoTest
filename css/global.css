@@ -1,0 +1,172 @@
+body
+{
+	background:#d0cf9f url(../Images/hardingLayer_0013_background.png) left top repeat-x; 	
+}
+
+#wrapper {
+	width:900px;
+	margin:0 auto;
+}
+
+header {
+	overflow:hidden;
+}
+
+footer {
+	border:1px solid red;
+	
+}
+
+nav
+{
+	width:500px;
+	overflow:hidden;
+	padding-left: 45px;
+}
+
+section
+{
+	margin:0px;
+	padding:0px;
+	background-color:#FFF;
+	width:900px;
+}
+
+#main-image
+{
+	padding-top:16px;
+	margin-left:-16px;
+	width:622px;
+	float:left;
+}
+
+#sidebar-left
+{
+border:1px solid red;
+	width:200px;
+	float:left;
+}
+
+#sidebar-right
+{
+border:1px solid red;
+	width:266px;
+	float:left;
+}
+
+#main-article
+{
+border:1px solid red;
+	width:400px;
+	padding:10px;
+	float:left;
+}
+
+aside
+{
+	float:left;
+	width:278px;
+}
+
+#apply-box
+{
+	margin-left:10px;
+	margin-top:7px;
+	background:transparent url(../Images/hardingLayer_0001_apply.png) left top no-repeat;
+	overflow:hidden;
+	display:block;
+	width:284px;
+	height:0px;
+	padding-top:135px;
+	float:left;
+}
+
+#visit-box
+{
+	margin-top:-12px;
+	float:left;
+	background:transparent url(../Images/hardingLayer_0002_visit.png) left top no-repeat;
+	overflow:hidden;
+	display:block;
+	width:294px;
+	height:0px;
+	padding-top:269px;
+}
+
+#sidebar-picture
+{
+	float:left;
+	background:transparent url(../Images/hardingLayer_0004_sidebar-phto-rule.png) left top no-repeat;
+	overflow:hidden;
+	display:block;
+	width:196px;
+	height:0px;
+	padding-top:371px;
+	margin:3px auto;
+}
+
+#sidebar-quote
+{
+	float:left;
+	background:transparent url(../Images/hardingLayer_0005_left-side-pull-quote.png) left top no-repeat;
+	overflow:hidden;
+	display:block;
+	width:194px;
+	height:0px;
+	padding-top:107px;
+}
+
+#main-content
+{
+	top:-18px;
+	left:62px;
+	background-color:#FFF;
+	width:900px;
+	height:600px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header h1 a
+{
+	margin-left:0px;
+	float:left;
+	background:transparent url(../Images/hardingLayer_0010_red-Heart.png) left top no-repeat;
+	width:355px;
+	height:0px;
+	display:block;
+	overflow:hidden;
+	padding-top:57px;
+}
+
+header ul
+{
+	padding:0;
+	float:right
+}
+
+header ul li
+{
+	float:left;
+	background:transparent url(../Images/unselectedTabBackground.png) top left repeat-x;
+	width:99px;
+	height:36px;
+	list-style-type: none;
+	font-family:"Courier New";
+	text-align: center;
+}
+
+header ul li a
+{
+	color: #FFFFFF;
+}
+
+nav ul
+{
+	padding:0;
+	float:right
+}
+
