@@ -14,6 +14,9 @@ header {
 
 footer {
 	border:1px solid red;
+	float:left;
+	width:900px;
+	background-color:#FFF;
 	
 }
 
@@ -26,10 +29,8 @@ nav
 
 section
 {
-	margin:0px;
-	padding:0px;
-	background-color:#FFF;
 	width:900px;
+	background-color:#FFF;
 }
 
 #main-image
@@ -42,21 +43,21 @@ section
 
 #sidebar-left
 {
-border:1px solid red;
+	border:1px solid red;
 	width:200px;
 	float:left;
 }
 
 #sidebar-right
 {
-border:1px solid red;
+	border:1px solid red;
 	width:266px;
 	float:left;
 }
 
 #main-article
 {
-border:1px solid red;
+	border:1px solid red;
 	width:400px;
 	padding:10px;
 	float:left;
@@ -164,9 +165,45 @@ header ul li a
 	color: #FFFFFF;
 }
 
-nav ul
+#social-nav ul
 {
+	border:1px solid red;
+	padding:0;
+	float:left
+}
+
+#social-nav ul li
+{
+	background-color:#0AF;
+	float:left;
+	width:36px;
+	height:36px;
+	margin:2px;
+	list-style-type: none;
+	font-family:"Courier New";
+	text-align: center;
+}
+
+#bottom-tabs ul
+{
+	border:1px solid red;
 	padding:0;
 	float:right
 }
 
+#bottom-tabs ul li
+{
+	float:left;
+	background:transparent url(../Images/unselectedTabBackground.png) top left repeat-x;
+	width:78px;
+	height:27px;
+	list-style-type: none;
+	font-family:"Courier New";
+	font-size:12px;
+	text-align: center;
+}
+
+#bottom-tabs ul li a
+{
+	color: #FFFFFF;
+}
