@@ -3,20 +3,65 @@ body
 	background:#d0cf9f url(../Images/hardingLayer_0013_background.png) left top repeat-x; 	
 }
 
+a
+{
+    text-decoration: none;
+}
+
+p
+{
+	font-family:"Arial";
+	font-size:12px;
+	color:#000;
+}
+
 #wrapper {
 	width:900px;
 	margin:0 auto;
 }
 
 header {
+	padding-bottom:0px;
 	overflow:hidden;
+	margin-bottom:0px;
 }
 
-footer {
+header h1 a
+{
+	margin-left:0px;
 	float:left;
-	width:900px;
-	background-color:#FFF;
-	
+	background:transparent url(../Images/hardingLayer_0010_red-Heart.png) left top no-repeat;
+	width:355px;
+	height:0px;
+	display:block;
+	overflow:hidden;
+	padding-top:57px;
+}
+
+header ul
+{
+	padding:0;
+	float:right
+}
+
+header ul li
+{
+	float:left;
+	background:transparent url(../Images/unselectedTabBackground.png) top left repeat-x;
+	width:99px;
+	height:36px;
+	list-style-type: none;
+	font-family:"Courier New";
+	text-align: center;
+}
+
+header ul li+li {
+	border-left: solid 1px #1b1818;
+}
+
+header ul li a
+{
+	color: #FFFFFF;
 }
 
 nav
@@ -24,6 +69,19 @@ nav
 	width:500px;
 	overflow:hidden;
 	padding-left: 45px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin:0px;
+}
+
+footer {
+	
+	width:900px;
+	margin:0 auto;
+	background-color:#FFF;
+	overflow:hidden;
+	border-bottom: solid 1px #1b1818;
+	
 }
 
 section
@@ -31,10 +89,12 @@ section
 	width:900px;
 }
 
-#main-body-wrapper
+#content
 {
 	overflow:hidden;
 	background-color:#FFF;
+	width:900px;
+	margin:0 auto;
 }
 
 #main-image
@@ -70,29 +130,42 @@ aside
 	width:278px;
 }
 
+.right-sidebar
+{
+	display:block;
+	height:0px;
+	float:left;
+}
+
 #apply-box
 {
 	margin-left:10px;
 	margin-top:7px;
 	background:transparent url(../Images/hardingLayer_0001_apply.png) left top no-repeat;
 	overflow:hidden;
-	display:block;
 	width:284px;
-	height:0px;
 	padding-top:135px;
-	float:left;
 }
 
 #visit-box
 {
 	margin-top:-12px;
-	float:left;
 	background:transparent url(../Images/hardingLayer_0002_visit.png) left top no-repeat;
 	overflow:hidden;
-	display:block;
 	width:294px;
-	height:0px;
 	padding-top:269px;
+}
+
+#sidebar-left-title
+{
+	float:left;
+	background:transparent url(../Images/hardingLayer_0003_your-guide.png) left top no-repeat;
+	overflow:hidden;
+	display:block;
+	width:222px;
+	height:0px;
+	margin-left:-16px;
+	padding-top:80px;
 }
 
 #sidebar-picture
@@ -127,61 +200,67 @@ aside
 	height:600px;
 }
 
-a
+#harding-logo
 {
-    text-decoration: none;
-}
-
-header h1 a
-{
-	margin-left:0px;
 	float:left;
-	background:transparent url(../Images/hardingLayer_0010_red-Heart.png) left top no-repeat;
-	width:355px;
-	height:0px;
-	display:block;
+	background:transparent url(../Images/hardingLayer_0006_harding-logo.png) left top no-repeat;
 	overflow:hidden;
-	padding-top:57px;
+	display:block;
+	width:100%;
+	height:0px;
+	padding-top:127px;
+	margin:0 auto;
 }
 
-header ul
+h3
 {
-	padding:0;
-	float:right
+	font-family:"Courier New";
+	font-size:12px;
+	color:#FFF;
+	text-align:center;
 }
 
-header ul li
+#right-sidebox-1
 {
 	float:left;
-	background:transparent url(../Images/unselectedTabBackground.png) top left repeat-x;
-	width:99px;
-	height:36px;
-	list-style-type: none;
-	font-family:"Courier New";
-	text-align: center;
+	background:transparent url(../Images/hardingRightSideBox1.png) left top no-repeat;
+	width:256px;
+	height:219px;
 }
 
-header ul li a
+#right-sidebox-2
 {
-	color: #FFFFFF;
+	margin-top:15px;
+	float:left;
+	background:transparent url(../Images/hardingRightSideBox2.png) left top no-repeat;
+	width:256px;
+	height:467px;
 }
 
-#social-nav ul
+#social-nav
 {
 	padding:0;
 	float:left
 }
 
-#social-nav ul li
+#social-nav li
 {
 	background-color:#0AF;
 	float:left;
-	width:36px;
-	height:36px;
+	width:15px;
+	height:15px;
 	margin:2px;
 	list-style-type: none;
 	font-family:"Courier New";
 	text-align: center;
+}
+
+#bottom-tabs
+{
+	float:right;
+	border: 1px solid #600;
+	padding:0px;
+	margin:0px;
 }
 
 #bottom-tabs ul
@@ -200,6 +279,11 @@ header ul li a
 	font-family:"Courier New";
 	font-size:12px;
 	text-align: center;
+}
+
+#bottom-tabs ul li+li
+{
+	border-left: solid 1px #1b1818;;
 }
 
 #bottom-tabs ul li a

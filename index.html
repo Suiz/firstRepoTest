@@ -7,10 +7,10 @@
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/global.css">
 
-<!-- Remember to use this conditional to target IE6 and other obsolete browsers -->
+<!-- Remember to use this conditional to target IE9 when coding in HTML5 -->
 
-<!--[if lte IE 6]>
-  <link href="ie.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
 
@@ -19,36 +19,35 @@
 
 <body>
 
-<div id="wrapper">
+
 
 	<header>
-		<h1><a href="#">I love Harding</a></h1>
-		<nav>
-			<ul>
-	        <li><a href="#">Home</a></li>
-	        <li><a href="#">Articles</a></li>
-	        <li><a href="#">Ask Us</a></li>
-	        <li><a href="#">Visit</a></li>
-	        <li><a href="#">Apply</a></li>
-	        </ul>
-	    </nav><!-- Navigation -->
+      <div id="wrapper">
+          <h1><a href="#">I love Harding</a></h1>
+          <nav>
+              <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Articles</a></li>
+              <li><a href="#">Ask Us</a></li>
+              <li><a href="#">Visit</a></li>
+              <li><a href="#">Apply</a></li>
+              </ul>
+          </nav><!-- Navigation -->
+      </div>
 	</header>
 	
-	<section id="main-body-wrapper">
-		<section>
+	<section id="content">
+		<div id="wrapper">
 			<figure id="main-image">
 				<img src="./Images/hardingLayer_0000_main-image.png">
 			</figure>
-			<aside id="apply-box">
+			<aside class="right-sidebar" id="apply-box">
 				Apply Today!
 			</aside>
-			<aside id="visit-box">
+			<aside class="right-sidebar" id="visit-box">
 				Visit Harding. You won't know until you've been here.
 			</aside>
-		</section>
-	
-	
-		<section>
+            
 			<aside id="sidebar-left">
 				<figure id="sidebar-left-title">
 					Your Guide to Harding
@@ -60,6 +59,7 @@
 					You will leave prepared to succeed.
 				</figure>
 			</aside>
+            
 			<article id="main-article">
 				<h1>The Road Ahead</h1>
 			
@@ -67,40 +67,50 @@
 			
 			</article>
 			<aside id="sidebar-right">
-				<article>
-					What's your Bison IQ?
+				<figure id="harding-logo">
+					Harding University Logo
+				</figure>
+                <article id="right-sidebox-1">
+					<h3>What's your Bison IQ?</h3>
+                    <p>Did you know that Harding has its own television station? Our TV-16 cable network broadcasts all over campus and across White County, and Harding students work on each and every aspect of the television broadcasts, including writing, anchoring, filming and editing. Several Harding graduates have even gone on to achieve success in film and television thanks to the experience they gained at TV-16.</p>
 				</article>
-				<article>
-					Harding Highlights
+				<article id="right-sidebox-2">
+					<h3>Harding Highlights</h3>
+                    <p>Ivy Chambers, Class of '09<br />
+Hometown:Albuquerque, New Mexico<br />
+Major: Human Resources</p>
+
+<p>Meeting rock stars only happens in the movies. Or does it? Ivy Chambers, a former member of the Campus Activities Board, met singer/actor Tyler Hilton when he performed at Harding. "My favorite Harding moment was meeting Tyler Hilton in concert," Ivy says. "I was working for CAB at the concert and got to take my picture with him. Meeting the performers was one of the benefits of working for CAB." Through her work with CAB, Ivy formed new relationships. "Harding offers a lot of different programs to get involved with," she says. "It's a great place to meet friends for life."
+
+In addition to the great entertainment, Ivy said the professors make Harding a unique place. "Harding is a really great place to get your education," she says. "The professors care about your success and want you to do your best."</p>
 				</article>	
 			</aside>
-		</section>
-	</section>
+		</div>
+    </section>	
 	
 	<footer>
-		<nav id="social-nav">
-			<ul>
-				<li>RSS</li>
-				<li>FB</li>
-				<li>t</li>
-				<li>fr</li>
-				<li>?</li>
-				<li>V</li>
-				<li>YT</li>
-			</ul>
-		</nav>
-		<nav id="bottom-tabs">
-			<ul>
-	        	<li><a href="#">Home</a></li>
-		        <li><a href="#">Articles</a></li>
-		        <li><a href="#">Ask Us</a></li>
-		        <li><a href="#">Visit</a></li>
-		        <li><a href="#">Apply</a></li>
-	        </ul>		
-		</nav>
+      <div id="wrapper">
+          <ul id="social-nav">
+              <li><a href="#"><img src="Images/rss.png" /></a></li>
+              <li><a href="#"><img src="Images/fb.png" /></a></li>
+              <li><a href="#"><img src="Images/twitter.png" /></a></li>
+              <li><a href="#"><img src="Images/flickr.png" /></a></li>
+              <li><a href="#"><img src="Images/mp3.png" /></a></li>
+              <li><a href="#"><img src="Images/vimeo.png" /></a></li>
+              <li><a href="#"><img src="Images/youtube.png" /></a></li>
+          </ul>
+          <nav id="bottom-tabs">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Articles</a></li>
+                  <li><a href="#">Ask Us</a></li>
+                  <li><a href="#">Visit</a></li>
+                  <li><a href="#">Apply</a></li>
+              </ul>		
+          </nav>
+          </div>
 	</footer>
 
-</div><!-- Main Wrapper -->
 
 <!-- Remember to set Javascript files here, at the bottom, for faster load times -->
 
