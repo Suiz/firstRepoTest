@@ -64,6 +64,9 @@ header ul li+li {
 
 header ul li a
 {
+	font-weight:bold;
+	padding: 0.5em 1em;
+	display:block;
 	color: #FFFFFF;
 }
 
@@ -102,8 +105,7 @@ section
 #main-image
 {
 	margin-top:16px;
-	margin-left:-16px;
-	width:622px;
+	width:613px;
 	float:left;
 }
 
@@ -156,7 +158,7 @@ aside
 	margin-top:-12px;
 	background:transparent url(../Images/hardingLayer_0002_visit.png) left top no-repeat;
 	overflow:hidden;
-	width:294px;
+	width:287px;
 	padding-top:269px;
 }
 
