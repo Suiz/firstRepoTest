@@ -141,6 +141,12 @@ aside
 	float:left;
 }
 
+#timer-content
+{
+	overflow:hidden;
+	height:0px;
+}
+
 #apply-box
 {
 	float:left;
