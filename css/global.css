@@ -58,6 +58,11 @@ header ul li
 	text-align: center;
 }
 
+header ul li:hover
+{
+	background-color:#600;
+}
+
 header ul li+li {
 	border-left: solid 1px #1b1818;
 }
@@ -220,7 +225,7 @@ aside
 	height:600px;
 }
 
-#harding-logo
+h5
 {
 	background:transparent url(../Images/hardingLayer_0006_harding-logo.png) center top no-repeat;
 	overflow:hidden;
@@ -274,7 +279,6 @@ h3
 #bottom-tabs
 {
 	float:right;
-	border: 1px solid #600;
 	padding:0px;
 	margin:0px;
 }
@@ -295,6 +299,11 @@ h3
 	font-family:"Courier New";
 	font-size:12px;
 	text-align: center;
+}
+
+#bottom-tabs ul li:hover
+{
+	background-color:#600;
 }
 
 #bottom-tabs ul li+li
