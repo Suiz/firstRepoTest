@@ -25,11 +25,11 @@
           <h1><a href="#">I love Harding</a></h1>
           <nav id="main-nav">
               <ul>
-              <li><a href="#" onClick="openTimer();">Home</a></li>
-              <li><a href="#" onClick="changeArticleBackground();">Articles</a></li>
-              <li><a href="#" onClick="askQuestion();">Ask Us</a></li>
-              <li><a href="#">Visit</a></li>
-              <li><a href="#">Apply</a></li>
+              	<li><a href="#">Home</a></li>
+              	<li><a href="#">Articles</a></li>
+              	<li><a href="#">Ask Us</a></li>
+              	<li><a href="#">Visit</a></li>
+              	<li><a href="#">Apply</a></li>
               </ul>
           </nav><!-- Navigation -->
 	</header>
@@ -39,9 +39,35 @@
         	Today's Date
         </div>
         
-			<figure id="main-image">
-				<img src="./Images/hardingLayer_0000_main-image.png">
-			</figure>
+			<div id="slides">
+                <div class="slides_container">
+                    <div id="slide">
+                      <a href="#">
+                          <img src="./Images/hardingLayer_0000_main-image.png">
+                      </a>
+                      <div class="caption">
+                          <h6>You're invited to spend a weekend designed especially for you on Harding's campus. Our goal during the Bison Days weekends is to answer any questions you may have about Harding University.
+  Learn More!</h6>
+                      </div>
+                    </div>
+                    <div id="slide">
+                      <a href="#">
+                          <img src="./Images/hardingLayer_0000_main-image3.jpg">
+                      </a>
+                      <div class="caption">
+                          <h6>Manly sports! Learn More!</h6>
+                      </div>
+                    </div>
+                    <div id="slide">
+                      <a href="#">
+                          <img src="./Images/hardingLayer_0000_main-image2.jpg">
+                      </a>
+                      <div class="caption">
+                          <h6>More buildings!  Learn More!</h6>
+                      </div>
+                    </div>
+                </div>
+            </div>
 			<aside class="right-sidebar" id="apply-box">
 				Apply Today!
 			</aside>
@@ -110,9 +136,10 @@ In addition to the great entertainment, Ivy said the professors make Harding a u
 	</footer>
 
 <!-- Remember to set Javascript files here, at the bottom, for faster load times -->
+<script src="js/jquery.js"></script>
+<script src="js/slides.js"></script>
+<script src="js/global.js"></script>
 
-<script src="js/global.js">
-</script>
 
 </body>
 

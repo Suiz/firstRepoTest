@@ -1,8 +1,23 @@
 // JavaScript Document
 
+//$("document").ready(function() {
+	//alert ("Ding!");
+//});
+
+$(function(){
+      $("#slides").slides({
+        play: 8000,
+		pagination: false,
+		generatePagination: false
+      });
+    });
+
+
 var backgroundChange = false;
 
-function openTimer()
+var homeButton = document.getElementById('main-nav').getElementsByTagName('li');
+
+homeButton[0].onclick = function ()
 {
 	if ( document.getElementById('timer-content').style.height != 'auto' )
 		document.getElementById('timer-content').style.height = 'auto';
@@ -10,7 +25,30 @@ function openTimer()
 		document.getElementById('timer-content').style.height = '0';
 		
 	displayDate();
-}
+};
+
+homeButton[1].onclick = function()
+{
+	if (backgroundChange == false)
+	{
+		document.body.style.background= "#FFF url(../Images/hardingLayer_0013_background.png) left top repeat-x";
+		document.getElementById('content').style.backgroundColor = "#000";
+		backgroundChange = true;
+	}
+	else
+	{
+		document.body.style.background= "#d0cf9f url(../Images/hardingLayer_0013_background.png) left top repeat-x";
+		document.getElementById('content').style.backgroundColor = "#FFF";
+		backgroundChange = false;
+	}
+};
+
+homeButton[2].onclick = function ()
+{
+	var url = location.href;
+	window.alert(url.substr(url.lastIndexOf('/') + 1));
+};
+
 
 function displayDate()
 {
@@ -28,28 +66,6 @@ function changeTabBackground(sender)
 function revertTabBackground(sender)
 {
 	sender.style.backgroundColor = "transparent";
-}
-
-function changeArticleBackground()
-{
-	if (backgroundChange == false)
-	{
-		document.body.style.background= "#FFF url(../Images/hardingLayer_0013_background.png) left top repeat-x";
-		document.getElementById('content').style.backgroundColor = "#000";
-		backgroundChange = true;
-	}
-	else
-	{
-		document.body.style.background= "#d0cf9f url(../Images/hardingLayer_0013_background.png) left top repeat-x";
-		document.getElementById('content').style.backgroundColor = "#FFF";
-		backgroundChange = false;
-	}
-}
-
-function askQuestion()
-{
-	var url = location.href;
-	window.alert(url.substr(url.lastIndexOf('/') + 1));
 }
 
 function countDownTimer()
